@@ -13,13 +13,13 @@ body, html {
   display: block;
   position: fixed;
   width: 100%;
-  height: 45px;
+  height: 55px;
   margin: 0 auto;
-  top: -75px;
+  top: -55px;
 }
 
 .nav > .container {
-  margin: 0% 15%;
+  margin: 0%;
 }
 
 .nav .logo {
@@ -32,8 +32,8 @@ body, html {
 
 .nav .menu {
   display: block;
-  width: 70%;
-  height: 75px;
+  width: 100%;
+  height: 55px;
   list-style: none;
   float: right;
   margin: 0;
@@ -42,18 +42,168 @@ body, html {
 
 .nav .menu > li {
   display: inline-block;
+  width: 25%;
   float: left;
+  margin: 0;
 }
 
 .nav .menu > li > a {
   color: rgba(255, 255, 255, 1.0);
   display: block;
-  width: 25%;
-  height: 75px;
+  width: 100%;
+  height: 55px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 17px;
-  line-height: 45px;
+  line-height: 55px;
+}
+
+.head {
+  min-width: 100%;
+  min-height: 800px;
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 150px rgba(46, 46, 46, 1.0);
+  clear: both;
+}
+
+.head > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  line-height: 60px;
+  top: 250px;
+  font-size: 120px;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.head > h1 > p {
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 82px;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.tidbit {
+  padding: 30px 0px;
+  min-width: 100%;
+  min-height: auto;
+  clear: both;
+}
+
+.tidbit > .bit {
+  padding: 5%;
+  width: 40%;
+  float: left;
+  text-align: center;
+  line-height: 0px;
+}
+
+.tidbit > .bit > i {
+  font-size: 120px;
+  text-align: center;
+}
+
+.tidbit > .bit > h1 {
+  font-size: 56px;
+  line-height: 10px;
+}
+
+.tidbit > .bit > p {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.statement {
+  min-width: 100%;
+  min-height: auto;
+  padding: 30px 0px;
+  background-image: url("../img/background2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 150px rgba(46, 46, 46, 1.0);
+  clear: both;
+}
+
+.statement > p {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1.0);
+  font-size: 120px;
+}
+
+.recent {
+  padding: 90px 0px;
+  min-width: 100%;
+  min-height: auto;
+  clear: both;
+}
+
+.recent > h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 120px;
+  font-style: italic;
+  font-weight: boold;
+  line-height: 40px;
+}
+
+.recent > ul {
+  list-style-type: none;
+  display: block;
+  marign: 0;
+  padding: 0;
+}
+
+.recent > ul > li {
+  marign: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.recent > ul > li > a {
+  color: rgba(0, 0, 0, 1.0);
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.footer {
+  min-width: 100%;
+  height: 55px;
+  background: rgba(72, 72, 72, 1.0);
+  clear: both;
+}
+
+.footer > .copyright {
+  font-size: 24px;
+  height: 55px;
+  float: left;
+  line-height: 55px;
+  padding: 0px 25px;
+  color: rgba(255, 255, 255, 1.0);
+}
+
+.footer > .email {
+  float: right;
+}
+
+.footer > .email > a {
+  line-height: 55px;
+  height: 55px;
+  width: auto;
+  padding: 0px 25px;
+  color: rgba(255, 255, 255, 1.0);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
 }
